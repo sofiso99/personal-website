@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../LeftSection/leftSection.css" />
+    <link rel="stylesheet" href="../About/about.css" />
+    <script>
+      fetch("../LeftSection/leftSection.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("shared-container").innerHTML = data;
+        });
+    </script>
+  </head>
+  <body>
+    <div class="containers">
+      <div id="shared-container"></div>
+      <div class="big-container">
+        <section class="nav-section">
+          <div class="nav-links">
+            <a href="about.html" class="tab active">About</a>
+            <a href="..//Projects/projects.html" class="tab">Projects</a>
+            <a href="../Skills/skills.html" class="tab">Skills</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
