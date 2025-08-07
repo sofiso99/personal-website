@@ -1,0 +1,44 @@
+.projects-section {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.current-projects h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projects-list {
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.2s ease;
+  border: 3px solid #0000;
+  background: linear-gradient(#101623, #101623) padding-box,
+    linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%) border-box;
+}
+
+.projects-list:hover {
+  transform: translateY(-5px);
+}
+
+.projects-list h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.projects-list p {
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 20px;
+}

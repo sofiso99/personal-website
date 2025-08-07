@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../About/about.css" />
+    <link rel="stylesheet" href="../LeftSection/leftSection.css" />
+    <link rel="stylesheet" href="../Skills/skills.css" />
+    <script>
+      fetch("../LeftSection/leftSection.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("shared-container").innerHTML = data;
+        });
+    </script>
+  </head>
+  <body>
+    <div class="containers">
+      <div id="shared-container"></div>
+      <div class="big-container">
+        <section class="nav-section">
+          <div class="nav-links">
+            <a href="..//About/about.html">About</a>
+            <a href="..//Projects/projects.html">Projects</a>
+            <a href="../Skills/skills.html">Skills</a>
+          </div>
+        </section>
+        <div class="skills-section">Skills</div>
+        <section class="skills">
+          <h2>Current projects</h2>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

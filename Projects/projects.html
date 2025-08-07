@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../About/about.css" />
+    <link rel="stylesheet" href="../LeftSection/leftSection.css" />
+    <link rel="stylesheet" href="../Projects/projects.css" />
+    <script>
+      fetch("../LeftSection/leftSection.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("shared-container").innerHTML = data;
+        });
+    </script>
+  </head>
+  <body>
+    <div class="containers">
+      <div id="shared-container"></div>
+      <div class="big-container">
+        <section class="nav-section">
+          <div class="nav-links">
+            <a href="..//About/about.html">About</a>
+            <a href="..//Projects/projects.html">Projects</a>
+            <a href="../Skills/skills.html">Skills</a>
+          </div>
+        </section>
+        <div class="projects-section">Projects</div>
+        <section class="current-projects">
+          <h2>Current projects</h2>
+          <div class="projects">
+            <div class="projects-list">
+              <a
+                href="https://github.com/sofiso99/fcny-unit-5-text-adventure"
+                target="_blank"
+              >
+                <h3>Text Adventure Game</h3>
+                <p>
+                  Time Travel Dinosaur Survival is a text-based adventure game
+                  built with just HTML and CSS.
+                </p>
+              </a>
+            </div>
+            <div class="projects-list">
+              <h3>Project 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                aliquam lacinia tempor. Aliquam blandit est velit, quis viverra
+                arcu luctus ut.
+              </p>
+            </div>
+            <div class="projects-list">
+              <h3>Project 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                aliquam lacinia tempor. Aliquam blandit est velit, quis viverra
+                arcu luctus ut.
+              </p>
+            </div>
+            <div class="projects-list">
+              <h3>Project 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                aliquam lacinia tempor. Aliquam blandit est velit, quis viverra
+                arcu luctus ut.
+              </p>
+            </div>
+            <div class="projects-list">
+              <h3>Project 5</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                aliquam lacinia tempor. Aliquam blandit est velit, quis viverra
+                arcu luctus ut.
+              </p>
+            </div>
+            <div class="projects-list">
+              <h3>Project 6</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                aliquam lacinia tempor. Aliquam blandit est velit, quis viverra
+                arcu luctus ut.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

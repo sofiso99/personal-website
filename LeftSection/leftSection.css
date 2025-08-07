@@ -2,6 +2,7 @@ body {
   background-color: #101623;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ffffff;
+  margin-top: 40px;
 }
 
 .side-section {
@@ -15,7 +16,6 @@ body {
   border-radius: 30px;
   background: linear-gradient(#101623, #101623) padding-box,
     linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%) border-box;
-  box-shadow: 1px 1px 15px 0px rgba(254, 255, 247, 0.41);
   margin-left: 90px;
 }
 .personal-picture {
