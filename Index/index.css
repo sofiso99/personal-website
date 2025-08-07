@@ -35,17 +35,20 @@
 .about-section {
   font-weight: bold;
   font-size: 35px;
+  margin-left: 46px;
 }
 
 .about-section-paragraph {
-  margin: 60px 60px 60px 15px;
+  margin: 32px 60px 60px 15px;
   line-height: 20px;
+  margin-left: 46px;
 }
 
 .what-i-do h2 {
   font-weight: bold;
   font-size: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  margin-left: 46px;
 }
 
 .services {
