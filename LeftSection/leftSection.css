@@ -87,3 +87,11 @@ body {
 .contact-description {
   font-size: 13px;
 }
+
+@media only screen and (max-width: 600px) {
+  .side-section {
+    width: 75%;
+    height: 40%;
+    margin: -20px 20px 20px 20px;
+  }
+}

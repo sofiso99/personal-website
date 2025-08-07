@@ -1,8 +1,8 @@
 .skills-section {
   font-weight: bold;
   font-size: 35px;
-  margin-bottom: 70px;
-  margin-left: 45px;
+  margin-bottom: 80px;
+  
 }
 
 .skills-content {
@@ -38,7 +38,7 @@
   border: 3px solid #0000;
   border-radius: 20px;
   background: linear-gradient(#101623, #101623) padding-box,
-    linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%) border-box;
+    linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #4158d0 100%) border-box;
 }
 
 .backend-skills {
@@ -53,4 +53,44 @@
   justify-content: space-between;
   margin-bottom: 80px;
   margin-left: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-section {
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .skills-content,
+  .backend-skills,
+  .tool-skills {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .skills-title {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .skills-list {
+    width: 90%;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .skills-list img {
+    width: 20px;
+  }
+
+  .skill {
+    width: 100px;
+    height: 35px;
+    gap: 8px;
+    font-size: 14px;
+  }
 }
